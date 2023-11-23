@@ -10,12 +10,12 @@
 <body>
     <h1 align="center">Tablas</h1>
     <table>
-        <tr>
+        <tr id="tercero">
             <th>Nombre</th>
             <th>Apellido</th>
             <th>Ciudad</th>
-            <th>Telefono</th>
-            <th>Direccion</th>
+            <th style="width: 10%;">Telefono</th>
+            <th style="width: 40%;">Direccion</th>
         </tr>
         <tr id="primero">
             <td >
@@ -65,21 +65,27 @@
     </table>
 </body>
 <style>
-    table, th ,td{
-        border:1px solid black;
+    table{
+        border:2px solid rgba(31, 127, 172, 0.781);
+        border-radius: 10px;
     }
     td,th{
         border-radius: 10px;
+        border-color:rgb(26, 25, 25);
+        height:45px;
     }
    
     th{
-        background-color: #6197c5;
+        background-color: #0da792;
+    }
+    #tercero{
+        background-color: rgb(81, 129, 192);
     }
     #primero{
-        background-color:#338DFF;
+        background-color:#66b6eb;
     }
     #segundo{
-        background-color: aqua;
+        background-color: rgb(63, 139, 189);
     }
    /* #tercero{
         background-color: blueviolet;
