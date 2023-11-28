@@ -1,0 +1,11 @@
+ul{
+    /*border:2px solid rgba(31, 127, 172, 0.781);
+    border-radius: 10px;*/
+    background-color: #c6d3d3;
+    border-color: #faebd7;
+    list-style-type:none;
+
+}
+li{
+    list-style-type: none;
+}
